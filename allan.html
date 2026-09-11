@@ -17,6 +17,7 @@
 <p>Es bueno ejecutando su instrumento (Saxofón Alto, Timbal)</p>
 <p>Fecha de nacimiento: 19/03/2009</p>
 <p>Estado: Soltero</p>
+<p>Allan o mejor conocido como chico BAES es una persona color canela tentación, es bueno tocándola (el saxofón y el timbal), está estudiando contaduría, y puede manejar.</p>
 
 <img src="Images/esqueleto-bailando-esqueleto.gif">
 
@@ -33,7 +34,7 @@
 
 <audio id="musica" src="Audio/allanmusica.mp3"></audio>
 <button id="botonMusica" onclick="reproducirMusica()">
-    <img id="iconoMusica" src="Images/play.png" alt="Reproducir">
+    <img id="iconoMusica" src="./play.png" alt="Reproducir">
 </button>
 
 <script>
@@ -43,10 +44,10 @@
 
         if (musica.paused) {
             musica.play();
-            icono.src = "images/pause.png";
+            icono.src = "./pause.png";
          } else {
             musica.pause();
-            icono.src = "images/play.png";
+            icono.src = "./play.png";
           }
     }
 </script>
