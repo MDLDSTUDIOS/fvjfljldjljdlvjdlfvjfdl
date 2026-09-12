@@ -34,7 +34,7 @@
 
 <audio id="musica" src="Audio/allanmusica.mp3"></audio>
 <button id="botonMusica" onclick="reproducirMusica()">
-    <img id="iconoMusica" src="./play.png" alt="Reproducir">
+    <img id="iconoMusica" src="Images/play.png" alt="Reproducir">
 </button>
 
 <script>
@@ -44,10 +44,10 @@
 
         if (musica.paused) {
             musica.play();
-            icono.src = "./pause.png";
+            icono.src = "Images/pause.png";
          } else {
             musica.pause();
-            icono.src = "./play.png";
+            icono.src = "Images.play.png";
           }
     }
 </script>
